@@ -1,6 +1,6 @@
 package proyecto.inicial;
 
-import proyecto.inicial.Laberinto.Laberinto;
+import proyecto.inicial.Menus.MenusPrin;
 
 /**
  * Hello world!
@@ -8,8 +8,15 @@ import proyecto.inicial.Laberinto.Laberinto;
  */
 public class App 
 {
+
+    
     public static void main( String[] args )
     {
-     new Laberinto().generadorLaberinto();
+        MenusPrin MenuIni = new MenusPrin();
+        MenuIni.inicial();
+        
     }
+    
+
+
 }
